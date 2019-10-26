@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Markers</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- Leaflet CSS & JS -->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+		integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+		crossorigin=""/>
+			<script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+			integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+			crossorigin=""></script>
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+
+<body>
+
+<!-- Insert toggle bar here -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+  <div class="justify-right">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="brasil.html">Brazilian Wild Fire Analysis</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="impact.html">Impacts of Deforestation</a></li>
+	    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Graphs
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="plot1.html">2008</a></li>
+          <li><a href="plot2.html">2009</a></li>
+          <li><a href="plot3.html">2010</a></li>
+		  <li><a href="plot4.html">2011</a></li>
+		  <li><a href="plot5.html">2012</a></li>
+		  <li><a href="plot6.html">2013</a></li>
+		  <li><a href="plot7.html">2014</a></li>
+		  <li><a href="plot8.html">2015</a></li>
+		  <li><a href="plot9.html">2016</a></li>
+		  <li><a href="plot10.html">2017</a></li>
+		  <li><a href="plot11.html">Graphs</a></li>
+		  <li><a href="plot12.html">Map</a></li>
+        </ul>
+      </li>
+    </ul>
+	</div>
+  </div>
+</nav>
+
+<!-- Insert toggle bar here -->
+
+
+  <!-- The div where we will inject our map -->
+  <div id="map"></div>
+
+  <!-- API key -->
+  <script type="text/javascript" src="config.js"></script>
+  <!-- JS -->
+  <script type="text/javascript" src="top_10.js"></script>
+</body>
+</html>

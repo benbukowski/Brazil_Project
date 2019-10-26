@@ -1,0 +1,51 @@
+nav  {
+	padding-right:50px;	
+	
+}
+
+
+body {
+	background-color:darkgrey;
+		
+}
+.contentbox{
+	background-color:whitesmoke;
+	
+	
+	
+	
+}
+.contentbox h2{
+	color:black;
+	text-align:center;
+	
+}
+.contentbox p{
+	font-size:20px;
+	padding-top:35px
+	
+	
+}
+
+.imagegrid img{
+	width:90%;
+	border:solid 2px white;	
+	
+}
+
+.imagegrid img.active{
+	border:solid 2px teal;
+	width: 90%;
+	
+}
+
+.imagegrid h3{
+	color:green;
+	text-align:center;
+	
+}
+
+.justify-right{
+	float:right;
+	
+}
